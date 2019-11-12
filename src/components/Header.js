@@ -17,28 +17,27 @@ class Header extends Component {
 
   render(){
     return (
-    <div class="header">
+    <header>
       <img src={facebookLogo} />
       <input type="text" placeholder="Pesquisar"/>
-
       <div class="search-icon-content">
         <img src = {searchIcon} />
       </div>
-      <div class="user-label-content">
+      <nav>
         <img id="profile" src={profile}/> 
-        <text>Heitor</text>
-        <div class="vertical-line" />
+        <text>Heitor</text> 
+        <div class="vertical-line"/>
         <text>Página Inicial</text>
-        <div class="vertical-line" />
-        <text>Criar</text>
+        <div class="vertical-line"/>
+        <text>Criar</text> 
         <div class="vertical-line" />
         <div class ="icons-content">
           <img src = {switchUser} />
           <img src = {messenger} />
           <img src = {notification} />
         </div>
-      </div>
-    </div>
+      </nav>
+    </header>
     );
   }
 }

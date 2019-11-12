@@ -1,11 +1,17 @@
 import React from 'react';
 import './App.css';
 
-import HomePage from './components/HomePage'
+import Header from './components/Header'
+import PostList from './components/PostList'
 
 
 function App(){
-  return <HomePage />
+  return (
+    <>
+      <Header />
+      <PostList />  
+    </>
+    );
 }
 
 export default App;
